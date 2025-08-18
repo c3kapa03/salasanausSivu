@@ -7,5 +7,4 @@ app.use(express.static('public'))
 
 app.listen(port, () => {
   console.log(`The password app listening on port ${port}`)
-  console.log('Editing the code')
 })
